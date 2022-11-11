@@ -1,0 +1,43 @@
+nav {
+    height: 8rem;
+    background: #b993d6;
+    background: -webkit-linear-gradient(to right, #8ca6db, #b993d6);
+    background: linear-gradient(to right, #8ca6db, #b993d6);
+    box-shadow: 0 1px 10px #313131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 12rem;
+    height: 6rem;
+    border-radius: 100px;
+    margin: 0 4rem;
+    background-color: #e8edf7;
+    background-image: url("../../../assets/logo.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.btn-logout {
+    height: 2rem;
+    margin: 0 4rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #e8edf7;
+
+    &:hover {
+        background-color: #d8dbe2;
+    }
+
+    .logo-logout {
+        height: 2rem;
+        width: 2rem;
+    }
+}

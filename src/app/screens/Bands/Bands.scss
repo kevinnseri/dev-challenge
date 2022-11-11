@@ -1,0 +1,80 @@
+body {
+    overflow: overlay;
+}
+
+.bands-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+    margin: 1rem 3rem;
+    padding: 1rem;
+    border-bottom: 2px solid rgb(126, 126, 126);
+
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+.filter-sorting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+.display-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.btn-display {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bands-container {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 1rem 5rem;
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.bands-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.bands-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.bands-band {
+    padding: 1.2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(73, 73, 73);
+    box-shadow: 0 0 2px 2px rgba(177, 177, 177, 0.9);
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        background: rgba(197, 197, 197, 0.582);
+    }
+}
+
+.bands-loader {
+    max-width: 20rem;
+    margin: 0 auto;
+    margin-top: 20rem;
+}

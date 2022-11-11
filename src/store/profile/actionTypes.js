@@ -1,0 +1,3 @@
+export const SET_USER = 'PROFILE/SET_USER';
+export const SET_ACCESS = 'PROFILE/SET_ACCESS';
+export const CLEAR_PROFILE = 'PROFILE/CLEAR_PROFILE';

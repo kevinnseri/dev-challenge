@@ -1,0 +1,13 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "jsxBracketSameLine": true,
+  "insert_final_newline": true,
+  "charset" : "utf-8",
+  "indent_style" : "space",
+  "indent_size" : 2,
+  "endOfLine":"auto"
+}
